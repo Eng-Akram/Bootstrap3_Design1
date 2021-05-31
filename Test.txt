@@ -1,0 +1,21 @@
+Large Screens           lg
+Medium Screens          md
+Small Screens           sm
+Extra Small Screens     xs
+
+
+col-lg-4
+
+
+
+grid system = 12 unit
+
+col = column
+lg = large Screens
+4 = 
+
+visible // Show
+hidden // Hide
+
+hidden-(screen name) // hidden-lg
+visible-(screen name)-(block / inline / inline-block) // visible-md-block

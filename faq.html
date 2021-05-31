@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--IE Compatibility Meta For Internet Explorer-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--First Mobile Meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="css/bootstrap.css" /> <!--Untoched File-->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" /> <!--Strong Class Has A First Priority-->
+    <link rel="stylesheet" href="css/pages.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/default_theme.css" />
+    <link rel="stylesheet" href="css/hover.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Open+Sans:wght@300;400&display=swap">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script> -- ex: header, footer, nav
+        <script src="js/respond.min.js"></script> --repair media queries problems in ie.
+    <![endif]-->
+</head>
+<body>
+
+    <!-- Start Tool Box Section -->
+
+    <section class="option-box">
+      <div class="color-option">
+        <h4>Color Option</h4>
+        <ul class="list-unstyled">
+          <li data-value="css/default_theme.css"></li>
+          <li data-value="css/purple_theme.css"></li>
+          <li data-value="css/blue_theme.css"></li>
+          <li data-value="css/yellow_theme.css"></li>
+        </ul>
+      </div>
+      <i class="fa fa-gear fa-3x gear-check"></i>
+    </section>      
+
+    <!-- End Tool Box Section -->
+    
+    <!-- Start Navbar -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ournavbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand hvr-pop" href="#">Semsema <span>Brand</span></a> <!-- I Used Hover.css ->-> hvr-pop -->
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="ournavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>  
+              <li class="active"><a href="faq.html">FAQ</a></li> <!-- Frequently Asked Questions == FAQ -->
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Beauty</a></li>
+                  <li><a href="#">Body Care</a></li>
+                  <li><a href="#">Face Care</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Parfum</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Map</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- End Of The Container-fluid -->
+      </nav>
+
+    <!-- End Navbar -->
+
+    <!-- Start Breadcrumb -->
+
+
+    <div class="breadcrumb-holder">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">FAQ</li>
+            </ol>
+        </div>
+    </div>
+
+      <!-- End Breadcrumb -->
+      
+      <!-- Start FAQ Intro -->
+
+        <section class="faq text-center">
+            <div class="container">
+                <h1>Frequently Asked Questions</h1>
+                <hr>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            </div>
+        </section>
+
+      <!-- End FAQ Intro -->
+
+      <!-- Start FAQ Accordion -->
+
+      <section class="faq-questions">
+          <div class="container">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                <!-- Start Question 1 -->
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading-one">
+                        <h4 class="pannel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-one" aria-expanded="true" aria-controls="collapse-one">
+                                #01 How To Use Our Site
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse-one" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-one">
+                        <div class="panel-body">
+                            This Is A Test Description This Is A Test Description This Is A Test Description This Is A Test Description
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Question 1 -->
+
+                <!-- Start Question 2 -->
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading-two">
+                        <h4 class="pannel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-two" aria-expanded="true" aria-controls="collapse-two">
+                                #02 How To Use Our Site
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse-two" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-two">
+                        <div class="panel-body">
+                            This Is A Test Description This Is A Test Description This Is A Test Description This Is A Test Description
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Question 2 -->
+
+                <!-- Start Question 3 -->
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading-three">
+                        <h4 class="pannel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-three" aria-expanded="true" aria-controls="collapse-three">
+                                #03 How To Use Our Site
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse-three" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-three">
+                        <div class="panel-body">
+                            This Is A Test Description This Is A Test Description This Is A Test Description This Is A Test Description
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Question 3 -->
+
+                <!-- Start Question 4 -->
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading-four">
+                        <h4 class="pannel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-four" aria-expanded="true" aria-controls="collapse-four">
+                                #04 How To Use Our Site
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse-four" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-four">
+                        <div class="panel-body">
+                            This Is A Test Description This Is A Test Description This Is A Test Description This Is A Test Description
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Question 4 -->
+
+              </div>
+          </div>
+      </section>
+
+      <!-- End FAQ Accordion -->
+
+      <!-- Start Ultimate Footer Section -->
+
+      <section class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <h3>Sitemap</h3>
+              <ul class="list-unstyled three-columns">
+                <li>Home</li>
+                <li>About</li>
+                <li>Company</li>
+                <li>Care</li>
+                <li>Design</li>
+                <li>Following</li>
+                <li>Services</li>
+                <li>Sitemap</li>
+                <li>Contact Us</li>
+              </ul>
+              <ul class="list-unstyled social-list">
+                <li><img src="images/socials/facebook.png" alt="Facebook" /></li>
+                <li><img src="images/socials/google+.png" alt="Google+" /></li>
+                <li><img src="images/socials/twitter.png" alt="Twitter" /></li>
+                <li><img src="images/socials/pinterest.png" alt="Pinterest" /></li>
+                <li><img src="images/socials/rss.png" alt="Rss" /></li>
+                <li><img src="images/socials/email.png" alt="Email" /></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h3>Latest Articles</h3>
+
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="images/articles/01.jpg" width="64" height="64" alt="Image 1" />
+                </a>
+                <div class="media-body">
+                  <h4 class="media-heading">Beauty</h4>
+                  This Site Is A Top Guide For Your Beauty And Skin Care.
+                </div>
+              </div>
+
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="images/articles/02.jpg" width="64" height="64" alt="Image 2" />
+                </a>
+                <div class="media-body">
+                  <h4 class="media-heading">Body Care</h4>
+                  This Site Is A Top Guide For Your Beauty And Skin Care.
+                </div>
+              </div>
+
+              <div class="media">
+                <a class="pull-left" href="#">
+                  <img class="media-object" src="images/articles/03.jpg" width="64" height="64" alt="Image 3" />
+                </a>
+                <div class="media-body">
+                  <h4 class="media-heading">Face & Hair Care</h4>
+                  This Site Is A Top Guide For Your Beauty And Skin Care.
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-lg-4">
+              <h3>Our Wow Work</h3>
+              <img class="img-thumbnail" src="images/work/01.jpg" alt="Image 01" />
+              <img class="img-thumbnail" src="images/work/02.jpg" alt="Image 02" />
+              <img class="img-thumbnail" src="images/work/03.jpg" alt="Image 03" />
+              <img class="img-thumbnail" src="images/work/04.jpg" alt="Image 04" />
+            </div>
+          </div>
+        </div>
+        <div class="copyright text-center">
+          Copyright &copy; 2021 <span>Semsema</span> Brand
+        </div>
+      </section>
+
+      <!-- End Ultimate Footer Section -->
+
+      <!-- Start Scroll To Top -->
+
+      <div id="scroll-top">
+        <i class="fa fa-chevron-up fa-3x"></i>
+      </div>
+
+      <!-- End Scroll To Top -->
+
+    <script src="js/jquery-1.11.1.min.js"></script> <!--Must Be Loaded First-->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+</body>
+</html>
